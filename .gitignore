@@ -9,7 +9,6 @@
 Thumbs.db
 __pycache__/
 auth.json
-helm/*-values.yaml
 terraform/.terraform.lock.hcl
 terraform/.terraform/
 terraform/terraform.tfstate

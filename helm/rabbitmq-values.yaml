@@ -1,0 +1,11 @@
+auth:
+  username: user
+  password: strongpassword
+  erlangCookie: secretcookie
+service:
+  type: ClusterIP
+ingress:
+  enabled: true
+  hostname: rabbitmq.local
+  path: /
+  tls: false
