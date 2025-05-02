@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: caddy-config
+data:
+  Caddyfile: |
+    :80 {
+        basicauth /* {
+            admin $2a$14$/kH91zO5kweqJUO2fEYoMeegIe3dyDINutYi21ASnJ8ULKN5AN0/i
+        }
+
+        reverse_proxy /* hello-service:80
+    }
